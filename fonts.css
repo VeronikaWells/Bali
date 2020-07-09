@@ -1,27 +1,32 @@
-
 @font-face {
-    font-family: 'PT Serif';
-    src:
-      url('./fonts/PTSerif-Regular.woff2') format('woff2'),
-      url('./font/PTSerif-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'PT Serif';
-    src:
-      url('./fonts/PTSerif-Bold.woff2') format('woff2'),
-      url('./fonts/PTSerif-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Museo Sans Cyrl 500';
-    src:
-      url('./fonts/MuseoSansCyrl-500.woff2') format('woff2'),
-      url('./fonts/MuseoSansCyrl-500.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family:  'PT Serif';
+  src:  
+    url('./fonts/PTSerif-Regular.woff2')   format('woff2'),
+    url('./font/PTSerif-Regular.woff')    format('woff');
+  font-weight:  normal;
+  font-style:  normal;
+}
+@font-face {
+  font-family:  'PT Serif';
+  src:
+    url('./fonts/PTSerif-Bold.woff2')    format('woff2'),
+    url('./fonts/PTSerif-Bold.woff')    format('woff');
+  font-weight:  bold;
+  font-style:  normal;
+}
+@font-face {
+  font-family:  'Museo';
+  src:
+    url('./fonts/MuseoSansCyrl-500.woff2')    format('woff2'),
+    url('./fonts/MuseoSansCyrl-500.otf')    format('otf');
+  font-weight:  500;
+  font-style:  normal;
+}
+@font-face {
+  font-family:  'Museo';
+  src:
+    url('./fonts/Museo-700.woff2')    format('woff2'),
+    url('./fonts/museo-sans-700.otf')    format('otf');
+  font-weight:  700;
+  font-style:  normal;
+}
