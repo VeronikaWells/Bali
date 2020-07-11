@@ -10,8 +10,8 @@
 @font-face {
   font-family: 'Museo';
   src:
-    url('./fonts/MuseoSansCyrl-500.woff2')    format('woff2'),
-    url('./fonts/MuseoSansCyrl-500.otf')    format('otf');
+    url('./fonts/MuseoSans500.woff2')    format('woff2'),
+    url('./fonts/museo-sans-500.woff')    format('woff');
   font-weight: 500;
   font-style: normal;
 }
@@ -19,8 +19,8 @@
 @font-face {
   font-family: 'Museo';
   src:
-    url('./fonts/museo-sans-700.woff2')    format('woff2'),
-    url('./fonts/Museo 700.otf')    format('otf');
+    url('./fonts/MuseoSans-700.woff2')    format('woff2'),
+    url('./fonts/museo-sans-700.woff')    format('woff');
   font-weight: bold;
   font-style: normal;
 }
