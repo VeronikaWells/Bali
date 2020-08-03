@@ -6,7 +6,7 @@
   background: url(./img/backround.jpg) no-repeat;
   background-size: cover;
   background-position: top;
-  font-family: 'Museo';
+  font-family: "Museo";
 }
 
 .header {
@@ -27,7 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-right: 0.8%;
+  margin-right: .8%;
   flex: 1;
 }
 
@@ -99,7 +99,7 @@
   background: url(img/Bali.png) no-repeat;
   align-items: flex-end;
   background-size: 95%;
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .content__indo {
@@ -110,7 +110,7 @@
   color: #f8eee4;
   width: 29vw;
   font-size: 1.13em;
-  padding-left: 0.4em;
+  padding-left: .4em;
   margin: 2.3em 0 1.5em 0;
 }
 
@@ -125,7 +125,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  margin-left: 0.8em;
+  margin-left: .8em;
   padding: 3.45%;
 }
 
@@ -185,7 +185,7 @@
 }
 
 
-@media (min-width:1367px) and (max-width: 1660px) {
+@media (min-width: 1367px) and (max-width: 1660px) {
   .wrap {
     max-width: 1660px;
   }
@@ -199,7 +199,7 @@
   }
 
   .menu__link {
-    font-size: 0.97em;
+    font-size: .97em;
     margin-right: 5.5%;
   }
 
@@ -222,14 +222,14 @@
   .content__text {
     width: 33vw;
     font-size: 1em;
-    padding-left: 0.8em;
+    padding-left: .8em;
     margin: 1.9em 0 1.4em 0;
-    letter-spacing: 0.005em;
+    letter-spacing: .005em;
   }
 
   .content__button {
     font-size: 1.1em;
-    margin-left: 0.9em;
+    margin-left: .9em;
   }
 
   .gallery__item {
@@ -237,7 +237,7 @@
   }
 }
 
-@media (min-width:1025px) and (max-width: 1366px) {
+@media (min-width: 1025px) and (max-width: 1366px) {
   .wrap {
     max-width: 1366px;
   }
@@ -272,15 +272,15 @@
   }
 
   .content__text {
-    font-size: 0.8em;
-    padding-left: 0.5em;
+    font-size: .8em;
+    padding-left: .5em;
     margin: 2em 0 1.4em 0;
-    letter-spacing: 0.004em;
+    letter-spacing: .004em;
   }
 
   .content__button {
-    font-size: 0.8em;
-    margin-left: 0.85em;
+    font-size: .8em;
+    margin-left: .85em;
   }
 
   .gallery__item {
@@ -288,7 +288,7 @@
   }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .wrap {
     max-width: 1024px;
   }
@@ -312,7 +312,7 @@
   }
 
   .menu__link {
-    font-size: 0.8em;
+    font-size: .8em;
     margin-right: 5.3%;
   }
 
@@ -394,7 +394,6 @@
     padding-left: 6%;
   }
 
-
   .header__logo {
     width: 38%;
     padding-left: 0;
@@ -417,7 +416,7 @@
     position: absolute;
     width: 25px;
     height: 3px;
-    background: #FCF5ED;
+    background: #fcf5fd;
     cursor: context-menu;
   }
 
@@ -446,11 +445,11 @@
   .content__text {
     max-width: 300px;
     width: 79vw;
-    font-size: 0.9em;
+    font-size: .9em;
     text-align: center;
     padding-left: 1.6em;
     margin: 53px 0 33px 0;
-    letter-spacing: 0.2px;
+    letter-spacing: .2px;
   }
 
   .content__button {
@@ -465,7 +464,7 @@
   }
 }
 
-@media only screen and (max-width: 767px) and (orientation:landscape) {
+@media only screen and (max-width: 767px) and (orientation: landscape) {
   .header__logowrap {
     padding-left: 0%;
   }
@@ -500,7 +499,7 @@
     padding-left: 0;
     text-align: center;
     margin: 10px 0 10px 0;
-    letter-spacing: 0.27px;
+    letter-spacing: .27px;
   }
 
   .content__button {
