@@ -157,7 +157,7 @@
   background-color: #e5e5e5;
   width: 90%;
   height: 3px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .mobile-nav__icon::after,
@@ -756,7 +756,7 @@
 
 @media (max-width: 550px) {
   .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 
