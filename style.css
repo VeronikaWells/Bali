@@ -97,7 +97,7 @@
   background: #d4bea3;
   border-radius: 48px;
   font-size: 22px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
   border: none;
   transition: background 1s ease-out;
@@ -147,7 +147,7 @@
   width: 35px;
   height: 39px;
   cursor: pointer;
-  transition: .4s;
+  transition: 0.4s;
   z-index: 9999;
 }
 
@@ -191,13 +191,13 @@
   z-index: 999;
   height: 0;
   opacity: 1;
-  transition: .5s;
+  transition: 0.5s;
   overflow: hidden;
   background-color: #fff;
 }
 
 .mobile-nav__list {
-  transition: .5s;
+  transition: 0.5s;
   list-style: none;
   padding-left: 15px;
   display: flex;
@@ -225,34 +225,34 @@
   display: none;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__nav {
+.mobile-nav__checkbox:checked ~ .mobile-nav__nav {
   opacity: 1;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__container {
+.mobile-nav__checkbox:checked ~ .mobile-nav__container {
   height: 100%;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn {
   margin-right: 79px;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
   background: transparent;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::before,
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::after {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before,
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   top: 0;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::after {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   background-color: #172f27;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::before {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   background-color: #172f27;
@@ -305,7 +305,7 @@
   }
 
   .info__text {
-    margin: 0px 42px 28px 0px;
+    margin: 0 42px 28px 0;
     width: 401px;
   }
 
@@ -603,7 +603,7 @@
 
   .pic__img-field {
     height: 290px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 
@@ -671,7 +671,6 @@
 }
 
 @media (max-width: 1000px) {
-
   .pic {
     display: none;
   }
@@ -693,8 +692,8 @@
   }
 
   .info__content {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     justify-content: center;
   }
 
@@ -750,13 +749,13 @@
 }
 
 @media (max-width: 675px) {
-  .mobile-nav__checkbox:checked~.mobile-nav__btn {
+  .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
     margin-right: 22px;
   }
 }
 
 @media (max-width: 550px) {
-  .mobile-nav__checkbox:checked~.mobile-nav__btn {
+  .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
     margin-right: 0px;
   }
 }
