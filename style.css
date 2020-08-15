@@ -1,12 +1,12 @@
 .wrap {
-  background: url(./img/backround.jpg) no-repeat;
+  background: url(img/backround.jpg) no-repeat;
   background-size: cover;
   background-position: top;
   height: 100vh;
   margin: 0 auto;
   font-family: Museo, Arial, sans-serif;
-  max-width: 1920px;
-  min-width: 375px;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .logo {
@@ -17,7 +17,7 @@
 
 .header {
   margin: 0 auto;
-  max-width: 89%;
+  max-width: 90%;
   height: 21.5vh;
   display: flex;
   align-items: center;
@@ -36,6 +36,7 @@
 .desktop-nav {
   flex: 1;
   display: flex;
+  justify-content: flex-end;
 }
 
 .desktop-nav__item {
@@ -297,7 +298,7 @@
     width: 402px;
     height: 191px;
     margin-bottom: 36px;
-    margin-right: 70px;
+    margin-right: 57px;
   }
 
   .info__subtitle {
@@ -315,46 +316,42 @@
     font-size: 17px;
     margin-right: 227px;
   }
-
-  .info__content {
-    margin-left: 68px;
-  }
 }
 
 @media (max-width: 1433px) {
   .header {
-    margin-top: -13px;
+    margin-top: -1px;
     margin-bottom: 76px;
   }
 
   .logo {
-    width: 111px;
+    width: 105px;
     height: 42px;
-    margin-right: 0;
+    margin-right: 27px;
   }
 
   .wrap-logo {
-    flex: 1;
+    flex: .5;
   }
 
   .desktop-nav {
-    flex: 1;
+    flex: .5;
   }
 
   .desktop-nav__item {
-    font-size: 17px;
+    font-size: 16px;
     padding: 0 14px;
   }
 
   .info__img {
-    width: 402px;
+    width: 370px;
     height: 191px;
     margin-bottom: 36px;
-    margin-right: 70px;
+    margin-right: 50px;
   }
 
   .info__subtitle {
-    width: 342px;
+    width: 320px;
   }
 
   .info__text {
@@ -364,9 +361,9 @@
   }
 
   .info__btn {
-    width: 222.76px;
-    height: 45.88px;
-    font-size: 17px;
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
     margin-right: 227px;
   }
 
@@ -375,18 +372,19 @@
   }
 
   .pic__img-temple {
-    height: 315px;
-    margin-right: 29px;
+    height: 300px;
+    margin-right: 10px;
+    margin-bottom: 2px;
   }
 
   .pic__img-gates {
-    height: 286px;
-    margin-right: 28px;
+    height: 265px;
+    margin-left: 20px;
     margin-bottom: 9px;
   }
 
   .pic__img-field {
-    height: 280px;
+    height: 270px;
     margin-bottom: 9px;
   }
 }
@@ -479,8 +477,8 @@
   }
 
   .info__img {
-    width: 453px;
-    height: 211px;
+    width: 445px;
+    height: 210px;
     margin-right: 42px;
   }
 
@@ -498,15 +496,15 @@
   }
 
   .pic__img-temple {
-    height: 357px;
+    height: 350px;
   }
 
   .pic__img-gates {
-    height: 324px;
+    height: 320px;
   }
 
   .pic__img-field {
-    height: 324px;
+    height: 320px;
   }
 }
 
@@ -524,8 +522,8 @@
   }
 
   .info__img {
-    width: 433px;
-    height: 211px;
+    width: 420px;
+    height: 200px;
     margin-bottom: 33px;
     margin-right: 44px;
   }
@@ -551,18 +549,18 @@
   }
 
   .pic__img-temple {
-    height: 338px;
-    margin-right: 29px;
+    height: 300px;
+    margin-right: 25px;
   }
 
   .pic__img-gates {
-    height: 306px;
-    margin-right: 28px;
+    height: 290px;
+    margin-right: 25px;
     margin-bottom: 22px;
   }
 
   .pic__img-field {
-    height: 305px;
+    height: 290px;
     margin-bottom: 28px;
   }
 }
@@ -579,7 +577,7 @@
   }
 
   .info__img {
-    height: 201px;
+    height: 200px;
   }
 
   .info__text {
@@ -591,18 +589,18 @@
   }
 
   .pic__img-temple {
-    height: 324px;
-    margin-right: 27px;
+    height: 280px;
+    margin-right: 20px;
   }
 
   .pic__img-gates {
-    height: 290px;
-    margin-right: 23px;
+    height: 270px;
+    margin-right: 20px;
     margin-bottom: 0;
   }
 
   .pic__img-field {
-    height: 290px;
+    height: 270px;
     margin-bottom: 0;
   }
 }
@@ -634,7 +632,7 @@
   }
 
   .info__img {
-    height: 184px;
+    height: 170px;
     margin-right: 65px;
   }
 
@@ -653,19 +651,19 @@
   }
 
   .pic__img-temple {
-    height: 309px;
-    margin-right: 26px;
+    height: 270px;
+    margin-right: 19px;
     padding-top: 13px;
   }
 
   .pic__img-gates {
-    height: 271px;
+    height: 260px;
     margin-right: 19px;
     margin-bottom: -14px;
   }
 
   .pic__img-field {
-    height: 271px;
+    height: 270px;
     margin-bottom: -14px;
   }
 }
