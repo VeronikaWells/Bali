@@ -7,6 +7,7 @@
   font-family: Museo, Arial, sans-serif;
   min-width: 100%;
   min-height: 100%;
+  overflow: hidden;
 }
 
 .logo {
@@ -82,7 +83,6 @@
   justify-content: flex-end;
   align-items: flex-end;
   margin-bottom: 49px;
-  margin-right: 99px;
 }
 
 .info__text {
@@ -118,17 +118,17 @@
 }
 
 .pic__img-temple {
-  height: 421.88px;
-  margin-right: 33px;
+  height: 410px;
 }
 
 .pic__img-gates {
-  height: 380px;
-  margin-right: 33px;
+  height: 370px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .pic__img-field {
-  height: 380px;
+  height: 370px;
 }
 
 .mobile-nav {
@@ -279,18 +279,16 @@
   }
 
   .pic__img-temple {
-    height: 315px;
-    margin-right: 29px;
+    height: 390px;
   }
 
   .pic__img-gates {
-    height: 286px;
-    margin-right: 28px;
+    height: 370px;
     margin-bottom: 9px;
   }
 
   .pic__img-field {
-    height: 280px;
+    height: 370px;
     margin-bottom: 9px;
   }
 
@@ -298,7 +296,6 @@
     width: 402px;
     height: 191px;
     margin-bottom: 36px;
-    margin-right: 57px;
   }
 
   .info__subtitle {
@@ -347,7 +344,6 @@
     width: 370px;
     height: 191px;
     margin-bottom: 36px;
-    margin-right: 50px;
   }
 
   .info__subtitle {
@@ -372,19 +368,19 @@
   }
 
   .pic__img-temple {
-    height: 300px;
-    margin-right: 10px;
+    height: 370px;
     margin-bottom: 2px;
   }
 
   .pic__img-gates {
-    height: 265px;
-    margin-left: 20px;
+    height: 330px;
+    margin-left: 22px;
+    margin-right: 22px;
     margin-bottom: 9px;
   }
 
   .pic__img-field {
-    height: 270px;
+    height: 330px;
     margin-bottom: 9px;
   }
 }
@@ -423,18 +419,18 @@
   }
 
   .pic__img-temple {
-    height: 372px;
-    margin-right: 29px;
+    height: 350px;
   }
 
   .pic__img-gates {
-    height: 337px;
-    margin-right: 26px;
+    height: 310px;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 0;
   }
 
   .pic__img-field {
-    height: 336px;
+    height: 310px;
     margin-bottom: 0;
     object-fit: cover;
     width: 49px;
@@ -477,7 +473,7 @@
   }
 
   .info__img {
-    width: 445px;
+    width: 370px;
     height: 210px;
     margin-right: 42px;
   }
@@ -496,15 +492,15 @@
   }
 
   .pic__img-temple {
-    height: 350px;
+    height: 300px;
   }
 
   .pic__img-gates {
-    height: 320px;
+    height: 280px;
   }
 
   .pic__img-field {
-    height: 320px;
+    height: 280px;
   }
 }
 
@@ -525,7 +521,6 @@
     width: 420px;
     height: 200px;
     margin-bottom: 33px;
-    margin-right: 44px;
   }
 
   .info__subtitle {
@@ -549,18 +544,18 @@
   }
 
   .pic__img-temple {
-    height: 300px;
-    margin-right: 25px;
+    height: 280px;
   }
 
   .pic__img-gates {
-    height: 290px;
-    margin-right: 25px;
+    height: 240px;
+    margin-right: 18px;
+    margin-left: 18px;
     margin-bottom: 22px;
   }
 
   .pic__img-field {
-    height: 290px;
+    height: 240px;
     margin-bottom: 28px;
   }
 }
@@ -589,18 +584,18 @@
   }
 
   .pic__img-temple {
-    height: 280px;
-    margin-right: 20px;
+    height: 240px;
   }
 
   .pic__img-gates {
-    height: 270px;
-    margin-right: 20px;
+    height: 220px;
+    margin-right: 16px;
+    margin-left: 16px;
     margin-bottom: 0;
   }
 
   .pic__img-field {
-    height: 270px;
+    height: 220px;
     margin-bottom: 0;
   }
 }
@@ -633,7 +628,6 @@
 
   .info__img {
     height: 170px;
-    margin-right: 65px;
   }
 
   .info__subtitle {
@@ -652,13 +646,13 @@
 
   .pic__img-temple {
     height: 270px;
-    margin-right: 19px;
     padding-top: 13px;
   }
 
   .pic__img-gates {
     height: 260px;
-    margin-right: 19px;
+    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: -14px;
   }
 
