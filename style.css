@@ -86,7 +86,7 @@
 }
 
 .info__text {
-  font-size: 22px;
+  font-size: 20px;
   color: #f8eee4;
   margin: 25px 0;
   width: 29vw;
@@ -118,7 +118,7 @@
 }
 
 .pic__img-temple {
-  height: 410px;
+  height: 400px;
 }
 
 .pic__img-gates {
@@ -261,7 +261,7 @@
 
 @media (max-width: 1621px) {
   .wrap-logo {
-    flex: 2;
+    flex: 1;
   }
 
   .desktop-nav {
@@ -279,7 +279,7 @@
   }
 
   .pic__img-temple {
-    height: 390px;
+    height: 380px;
   }
 
   .pic__img-gates {
@@ -475,11 +475,10 @@
   .info__img {
     width: 370px;
     height: 210px;
-    margin-right: 42px;
   }
 
   .info__subtitle {
-    width: 387px;
+    width: 315px;
   }
 
   .info__text {
@@ -524,7 +523,7 @@
   }
 
   .info__subtitle {
-    width: 369px;
+    width: 310px;
   }
 
   .info__text {
@@ -631,7 +630,7 @@
   }
 
   .info__subtitle {
-    width: 330px;
+    width: 300px;
   }
 
   .info__btn {
